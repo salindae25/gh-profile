@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="50.934 190.153 389.643 99.321"
+  xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="SvgjsLinearGradient1375">
+      <stop id="SvgjsStop1376" stop-color="#fbb040" offset="0"/>
+      <stop id="SvgjsStop1377" stop-color="#f9ed32" offset="1"/>
+    </linearGradient>
+  </defs>
+  <g id="SvgjsG1369" featurekey="symbolFeature-0" transform="matrix(1.067073, 0, 0, 1.067073, 50.692135, 188.243698)" fill="url(#SvgjsLinearGradient1375)">
+    <circle xmlns="http://www.w3.org/2000/svg" stroke="url(#SvgjsLinearGradient1375)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="18" cy="18.001" r="3.001"/>
+    <circle xmlns="http://www.w3.org/2000/svg" stroke="url(#SvgjsLinearGradient1375)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="31.5" cy="18.001" r="5.5"/>
+    <circle xmlns="http://www.w3.org/2000/svg" stroke="url(#SvgjsLinearGradient1375)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="50" cy="18.001" r="8"/>
+    <circle xmlns="http://www.w3.org/2000/svg" stroke="url(#SvgjsLinearGradient1375)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="68.499" cy="18.001" r="5.501"/>
+    <circle xmlns="http://www.w3.org/2000/svg" stroke="url(#SvgjsLinearGradient1375)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="82" cy="18.001" r="3"/>
+    <circle xmlns="http://www.w3.org/2000/svg" stroke="url(#SvgjsLinearGradient1375)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="18" cy="31.501" r="5.5"/>
+    <circle xmlns="http://www.w3.org/2000/svg" stroke="url(#SvgjsLinearGradient1375)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="33.999" cy="34" r="3"/>
+    <circle xmlns="http://www.w3.org/2000/svg" stroke="url(#SvgjsLinearGradient1375)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="50" cy="36.501" r="5.5"/>
+    <circle xmlns="http://www.w3.org/2000/svg" stroke="url(#SvgjsLinearGradient1375)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="65.999" cy="34" r="3.001"/>
+    <circle xmlns="http://www.w3.org/2000/svg" stroke="url(#SvgjsLinearGradient1375)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="82" cy="31.501" r="5.501"/>
+    <circle xmlns="http://www.w3.org/2000/svg" stroke="url(#SvgjsLinearGradient1375)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="18" cy="50.001" r="8"/>
+    <circle xmlns="http://www.w3.org/2000/svg" stroke="url(#SvgjsLinearGradient1375)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="36.499" cy="50.001" r="5.5"/>
+    <circle xmlns="http://www.w3.org/2000/svg" stroke="url(#SvgjsLinearGradient1375)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="50" cy="49.999" r="3"/>
+    <circle xmlns="http://www.w3.org/2000/svg" stroke="url(#SvgjsLinearGradient1375)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="63.5" cy="50.001" r="5.5"/>
+    <circle xmlns="http://www.w3.org/2000/svg" stroke="url(#SvgjsLinearGradient1375)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="82" cy="50.001" r="8"/>
+    <circle xmlns="http://www.w3.org/2000/svg" stroke="url(#SvgjsLinearGradient1375)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="18" cy="68.501" r="5.5"/>
+    <circle xmlns="http://www.w3.org/2000/svg" stroke="url(#SvgjsLinearGradient1375)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="33.999" cy="66" r="3"/>
+    <path xmlns="http://www.w3.org/2000/svg" stroke="url(#SvgjsLinearGradient1375)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M55.5,63.502  C55.5,66.537,53.037,69,50,69c-3.036,0-5.502-2.463-5.502-5.498C44.498,60.462,46.964,58,50,58C53.037,58,55.5,60.462,55.5,63.502z"/>
+    <circle xmlns="http://www.w3.org/2000/svg" stroke="url(#SvgjsLinearGradient1375)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="65.999" cy="66" r="3.001"/>
+    <circle xmlns="http://www.w3.org/2000/svg" stroke="url(#SvgjsLinearGradient1375)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="82" cy="68.501" r="5.501"/>
+    <circle xmlns="http://www.w3.org/2000/svg" stroke="url(#SvgjsLinearGradient1375)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="18" cy="82" r="3.001"/>
+    <circle xmlns="http://www.w3.org/2000/svg" stroke="url(#SvgjsLinearGradient1375)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="31.5" cy="82" r="5.5"/>
+    <circle xmlns="http://www.w3.org/2000/svg" stroke="url(#SvgjsLinearGradient1375)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="50" cy="82" r="8"/>
+    <circle xmlns="http://www.w3.org/2000/svg" stroke="url(#SvgjsLinearGradient1375)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="68.499" cy="82" r="5.501"/>
+    <circle xmlns="http://www.w3.org/2000/svg" stroke="url(#SvgjsLinearGradient1375)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="82" cy="82" r="3"/>
+  </g>
+  <g id="SvgjsG1370" featurekey="nameFeature-0" transform="matrix(2.636299, 0, 0, 2.636299, 166.83461, 175.310867)" fill="#ffffff">
+    <path d="M-0.04 30.240000000000002 l4.04 0 c-0.84 5.16 -0.6 6.16 0.84 6.16 c1.96 0 2.24 -1.64 3 -6 c1.12 -6.4 -7.08 -4.68 -5.6 -13.2 c0.88 -5 1.72 -9.6 7.72 -9.6 c4.44 0 5.2 2.52 4.4 8.56 l-4 0 c0.6 -4.36 0.32 -5.36 -0.96 -5.36 c-1.96 0 -2.36 2.16 -3.12 6.4 c-1.08 6.2 7.28 4 5.64 13.2 c-0.96 5.6 -1.76 10 -7.8 10 c-4.64 0 -5.24 -2.76 -4.16 -10.16 z M13.440000000000001 40 l2.96 -16.8 c1.96 -11.16 2.76 -15.56 8.76 -15.56 s5.2 4.4 3.24 15.56 l-2.96 16.8 l-4 0 l1.64 -9.2 l-4 0 l-1.64 9.2 l-4 0 z M19.64 27.6 l4 0 l0.76 -4.4 c1.84 -10.4 2.16 -12.36 0.16 -12.36 s-2.32 1.96 -4.16 12.36 z M29.439999999999998 40 l5.64 -32 l4 0 l-4.92 28 l5.2 0 l-0.72 4 l-9.2 0 z M41.04 40 l5.64 -32 l3.6 0 l1.8 19.6 l0 -0.4 l3.4 -19.2 l4 0 l-5.64 32 l-3.6 0 l-2.12 -17.6 l-0.04 0.4 l-3.04 17.2 l-4 0 z M57.839999999999996 40 l5.64 -32 l9.2 0 l-0.56 3.2 l-5.2 0 l-1.84 10.4 l4.4 0 l-0.56 3.2 l-4.4 0 l-1.96 11.2 l5.2 0 l-0.72 4 l-9.2 0 z M68.64 40 l6.84 -16.12 l-0.8 -15.88 l4 0 l-0.36 11.2 l0.4 0 l3.56 -11.2 l4 0 l-6.2 14.8 l0.96 17.2 l-4 0 l0 -11.32 l-0.4 0 l-4 11.32 l-4 0 z M86.24 40 l5 -28.4 l-4 0 l0.64 -3.6 l12 0 l-0.64 3.6 l-4 0 l-5 28.4 l-4 0 z" style="fill: rgb(46, 72, 95);"/>
+  </g>
+</svg>
