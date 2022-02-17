@@ -35,12 +35,11 @@ jobs:
         run: |
           yarn install
           yarn run build:qa
-      - name: deploy via gh-pages
-        run: |
-          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-          yarn run deploy  -- -u "github-actions-bot <support+actions@github.com>"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: deploy to qa
+        uses: JamesIves/github-pages-deploy-action@v4.2.5
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: dist # The folder the action should deploy.
   build-stage:
     if: "contains(github.event.commits[0].message, '[stage]')"
     # The type of runner that the job will run on
@@ -60,7 +59,7 @@ jobs:
         run: |
           yarn install
           yarn run build:stage
-      - name: deploy via gh-pages
+      - name: deploy to stage
         run: |
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
           yarn run deploy  -- -u "github-actions-bot <support+actions@github.com>"
