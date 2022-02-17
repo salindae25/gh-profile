@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build --mode stage --base=/gh-profile/",
+    "build:stage": "tsc && vite build --mode stage --base=/gh-profile/",
+    "build:qa": "tsc && vite build --mode qa --base=/gh-profile/",
     "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
