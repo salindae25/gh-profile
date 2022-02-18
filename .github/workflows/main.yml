@@ -75,14 +75,6 @@ jobs:
         with:
           branch: gh-pages # The branch the action should deploy to.
           folder: dist # The folder the action should deploy.
-      - name: Bump version and push tag
-        uses: TriPSs/conventional-changelog-action@master
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN_ACTION }}
-          git-message: "chore(release): {version}"
-          preset: "angular"
-          tag-prefix: ""
-          output-file: "CHANGELOG.md"
       - name: version update
         uses: remorses/bump-version@js
         with:
