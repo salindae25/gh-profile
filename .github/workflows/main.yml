@@ -7,6 +7,9 @@ on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
     branches: [main]
+    paths-ignore:
+      - "package.json"
+      - "CHANGELOG.md"
   pull_request:
     branches: [main]
 
@@ -16,7 +19,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  build-qa:
+  build-and-deploy-qa:
     if: "contains(github.event.commits[0].message, '[qa]')"
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
@@ -26,7 +29,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       # Runs a single command using the runners shell
-      - name: setup nodejs
+      - name: Setup nodejs
         uses: actions/setup-node@v2
         with:
           node-version: 16
@@ -35,12 +38,20 @@ jobs:
         run: |
           yarn install
           yarn run build:qa
-      - name: deploy to qa
+      - name: Deploy to qa
         uses: JamesIves/github-pages-deploy-action@v4.2.5
         with:
           branch: gh-pages # The branch the action should deploy to.
           folder: dist # The folder the action should deploy.
-  build-stage:
+      - name: version update
+        uses: remorses/bump-version@js
+        with:
+          version_file: ./VERSION
+          prerelease_tag: alpha
+          ignore: dist, ignored_folder
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  build-and-deploy-stage:
     if: "contains(github.event.commits[0].message, '[stage]')"
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
@@ -60,8 +71,23 @@ jobs:
           yarn install
           yarn run build:stage
       - name: deploy to stage
-        run: |
-          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-          yarn run deploy  -- -u "github-actions-bot <support+actions@github.com>"
+        uses: JamesIves/github-pages-deploy-action@v4.2.5
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: dist # The folder the action should deploy.
+      - name: Bump version and push tag
+        uses: TriPSs/conventional-changelog-action@master
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN_ACTION }}
+          git-message: "chore(release): {version}"
+          preset: "angular"
+          tag-prefix: ""
+          output-file: "CHANGELOG.md"
+      - name: version update
+        uses: remorses/bump-version@js
+        with:
+          version_file: ./VERSION
+          prerelease_tag: beta
+          ignore: dist, ignored_folder
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
