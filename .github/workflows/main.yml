@@ -33,11 +33,10 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 16
-          cache: "yarn"
       - name: build qa version
         run: |
-          yarn install
-          yarn run build:qa
+          npm ci
+          npm run build:qa
       - name: Deploy to qa
         uses: JamesIves/github-pages-deploy-action@v4.2.5
         with:
@@ -65,11 +64,10 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 16
-          cache: "yarn"
       - name: build stage version
         run: |
-          yarn install
-          yarn run build:stage
+          npm ci
+          npm run build:stage
       - name: deploy to stage
         uses: JamesIves/github-pages-deploy-action@v4.2.5
         with:
