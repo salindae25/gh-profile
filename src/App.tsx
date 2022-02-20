@@ -6,11 +6,11 @@ import { useState } from "react";
 import "./App.css";
 function App() {
   return (
-    <div className="app font-montserrat bg-gray-1 py-[70px] px-[140px] gap-5 grid overflow-x-hidden">
+    <div className="app font-montserrat bg-gray-1 py-4 px-4 lg:py-[70px] lg:px-[140px] gap-5 grid overflow-x-hidden">
       {/* IntroductionCard */}
       <IntroductionCard />
       {/* SkillCard */}
-      <div className="grid grid-cols-2 gap-5">
+      <div className="grid lg:grid-cols-2 gap-5">
         <SkillCard />
         <ExperiencesCard />
       </div>
