@@ -35,7 +35,7 @@ jobs:
           node-version: 16
       - name: build qa version
         run: |
-          npm ci
+          npm i
           npm run build:qa
       - name: Deploy to qa
         uses: JamesIves/github-pages-deploy-action@v4.2.5
@@ -66,7 +66,7 @@ jobs:
           node-version: 16
       - name: build stage version
         run: |
-          npm ci
+          npm i
           npm run build:stage
       - name: deploy to stage
         uses: JamesIves/github-pages-deploy-action@v4.2.5
